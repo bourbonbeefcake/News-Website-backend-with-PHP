@@ -4,7 +4,7 @@
 
 The website features:
 
-1. 1)A password protected administration area that allows the privileged users to:
+### A password protected administration area that allows the privileged users to:
   1. Add news articles
   2. Add categories
   3. Assign articles to categories
@@ -13,14 +13,14 @@ The website features:
   6. Edit category names
   7. Delete categories
 
-1. A publicly visible front-end that allows simple users to:
+### A publicly visible front-end that allows simple users to:
   1. Browse all the news articles displaying newest first
   2. View a list of news categories in the drop-down menu in the supplied HTML layout
   3. Click on one of the categories to view news articles in that category only
   4. Add a comment to a news article
   5. See comments added to that article by other users. Comments are visible on the news article page, and only comments for the selected article are visible.
 
-Additional Enhancements:
+### Additional Enhancements:
 
 1. Multi-layered user privileges system with admin, author, user and guest.
 2. Moderation of comments. When a comment is added, it&#39;s placed in a holding area in the administration area for administrator approval before appearing on the website
@@ -35,7 +35,7 @@ Additional Enhancements:
 11. The ability to click on a user and see any comment they have made
 12. The ability to see all news articles posted by a specific author
 
-**As a note** : Little to no attentions was given to the graphical design of the website as this assignment is purely about the backend of the website.
+### **As a note** : Little to no attention was given to the graphical design of the website as this assignment is purely about the backend of the website.
 
 ## Database Design
 ![](https://github.com/antoniosTriant/News-Website-backend-with-PHP/blob/master/documentation/images/erd.png)
