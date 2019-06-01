@@ -4,41 +4,41 @@
 
 The website features:
 
-1. 1)A password protected administration area that allows the privileged users to:
-	a)Add news articles
-	b)Add categories
-	c)Assign articles to categories
-	d)Edit an existing article e.g. changing the title or text
-	e)Delete articles from the website
-	f)Edit category names
-	g)Delete categories
+### A password protected administration area that allows the privileged users to:
+  1. Add news articles
+  2. Add categories
+  3. Assign articles to categories
+  4. Edit an existing article e.g. changing the title or text
+  5. Delete articles from the website
+  6. Edit category names
+  7. Delete categories
 
-1. 1)A publicly visible front-end that allows simple users to:
-	a)Browse all the news articles displaying newest first
-	b)View a list of news categories in the drop-down menu in the supplied HTML layout
-	c)Click on one of the categories to view news articles in that category only
-	d)Add a comment to a news article
-	e)See comments added to that article by other users. Comments are visible on the news article page, and only comments for the selected article are visible.
+### A publicly visible front-end that allows simple users to:
+  1. Browse all the news articles displaying newest first
+  2. View a list of news categories in the drop-down menu in the supplied HTML layout
+  3. Click on one of the categories to view news articles in that category only
+  4. Add a comment to a news article
+  5. See comments added to that article by other users. Comments are visible on the news article page, and only comments for the selected article are visible.
 
-Additional Enhancements:
+### Additional Enhancements:
 
-1)Multi-layered user privileges system with admin, author, user and guest.
-2)Moderation of comments. When a comment is added, it&#39;s placed in a holding area in the administration area for administrator approval before appearing on the website
-3)Ability to upload an image for an article otherwise the default will appear
-4)Social media buttons allowing users to easily share news articles
-5)Allow searching news articles by typing in a search text box
-6)Allow administrators to manage administrator accounts. Admins are able to create, update, and delete other admin/author users who can then log in and post stories. Stories posted are associated with user who posted them. The news article&#39;s author is visible on the news article&#39;s page. Soft Delete is implemented (meaning the account becomes inactive but still exists in the database with the ability to be restored)
-7)Securely store passwords with hashing
-8)Users must login to post comments
-9)Users are able to reply to a comment effectively allowing nested comments
-10)Users can be signed to the newsletter and receive notifications whenever a new article is posted (non-functional as it needs a mail server but implemented in code)
-11)The ability to click on a user and see any comment they have made
-12)The ability to see all news articles posted by a specific author
+1. Multi-layered user privileges system with admin, author, user and guest.
+2. Moderation of comments. When a comment is added, it&#39;s placed in a holding area in the administration area for administrator approval before appearing on the website
+3. Ability to upload an image for an article otherwise the default will appear
+4. Social media buttons allowing users to easily share news articles
+5. Allow searching news articles by typing in a search text box
+6. Allow administrators to manage administrator accounts. Admins are able to create, update, and delete other admin/author users who can then log in and post stories. Stories posted are associated with user who posted them. The news article&#39;s author is visible on the news article&#39;s page. Soft Delete is implemented (meaning the account becomes inactive but still exists in the database with the ability to be restored)
+7. Securely store passwords with hashing
+8. Users must login to post comments
+9. Users are able to reply to a comment effectively allowing nested comments
+10. Users can be signed to the newsletter and receive notifications whenever a new article is posted (non-functional as it needs a mail server but implemented in code)
+11. The ability to click on a user and see any comment they have made
+12. The ability to see all news articles posted by a specific author
 
-**As a note** : Little to no attentions was given to the graphical design of the website as this assignment is purely about the backend of the website.
+### **As a note** : Little to no attention was given to the graphical design of the website as this assignment is purely about the backend of the website.
 
 ## Database Design
-
+![](https://github.com/antoniosTriant/News-Website-backend-with-PHP/blob/master/documentation/images/erd.png)
 
 ## Technical Documentation
 
