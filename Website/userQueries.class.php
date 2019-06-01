@@ -423,8 +423,8 @@ class User
         $emails = $stmt->fetchAll();
 
 
-        $subject = 'New article posted at Northampton News!';
-        $from = 'admin@northnews.com';
+        $subject = 'New article posted at News Website!';
+        $from = 'admin@newsweb.com';
 
         $headers  = 'MIME-Version: 1.0' . "\r\n";
         $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
@@ -437,7 +437,7 @@ class User
         // Compose a simple HTML email message
         $message = '<html><body>';
         $message .= '<h1 style="color:#f40;">New Article!</h1>';
-        $message .= '<p>A new article has been posted in Northampton news. Follow the link to read:</p>';
+        $message .= '<p>A new article has been posted in News Website. Follow the link to read:</p>';
         $message .= '<a href="article.php?articleID='.$articleObj->getID().'">Click Here</a>';
         $message .= '</body></html>';
 

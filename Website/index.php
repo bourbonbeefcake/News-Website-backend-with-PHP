@@ -10,7 +10,7 @@
  */
 
 require_once 'db_config.php';
-  $title = 'Northampton News - Home';
-  $content = '<h1>Welcome to Northampton News!</h1>';
+  $title = 'News Website - Home';
+  $content = '<h1>Welcome to News Website!</h1>';
   require 'layout.php';
 ?>
